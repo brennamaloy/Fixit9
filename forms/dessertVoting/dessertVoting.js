@@ -3,6 +3,8 @@ var dessertList = ['Chocolate Cake','Cream Brulee','Cheesecake',
 
 dessertVoting.onshow=function(){
     drpDesserts.clear()   
+    for (i = 0; i<=dessertList.length - 1; i++)
+       drpDesserts.addItem(dessertList[i])
   /* add a loop here that adds all the desserts in the array 
      to the dropdown.
   */
@@ -19,4 +21,8 @@ drpDesserts.onclick=function(){
         it in a label, using a literal.
         */
     }
+}
+
+dYPage.onclick=function(){
+  ChangeForm(describeYou)
 }
