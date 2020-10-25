@@ -36,6 +36,15 @@
         "Elements",
         "dYPage.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "dessertVoting",
+        "Elements",
+        "lblResult.json"
+      ]
     }
   ],
   "class": "",
